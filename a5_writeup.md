@@ -13,22 +13,28 @@ Assignment 5 can be broken up into the following parts:
 - `DFS`: Uses depth-first search to solve the Sudoku puzzle. It works by trying to fill the most constrained cell with potential values until a solution is found or backtracks if a mistake is made
 - `BFS`: Uses breadth-first search to solve the Sudoku puzzle in a similar fashion to DFS but explores nodes level by level
 5. Main Execution:
+
+
 - Defines two different sets of initial moves for Sudoku puzzles
 - Uses both DFS and BFS to solve each puzzle and prints the results
 
 
 After completing the assignment, answer the following reflection questions:
 
-## Reflection Questions
+## Reflection Questionss
 
 1. How do the performance and efficiency of the Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms compare when solving Sudoku puzzles? In what scenarios might one approach be preferable over the other?
+
+DFS is quicker and more efficient, but BFS could be better when all of the moves have the same possibilities 
 
 
 
 2. How did the choice of data structures (like the Stack for DFS and Queue for BFS) impact the implementation and functionality of the algorithms? Are there alternative data structures or design patterns that could have been used to achieve the same objectives?
 
+when ussing a list it could be possible to achieve the same as DFS and BFS, but it wouldnt be as effiecient compared to those 2 algorithms
 
 
 3. Considering the current implementation, how might the Sudoku solver be adapted or extended for larger puzzles or different types of grid-based logic games? How can the lessons learned from this assignment be applied to real-world problem-solving or optimization challenges?
 
 
+you can add more numbers to the process of elimination to check the different posibilities to solve larger games. 
